@@ -1,6 +1,6 @@
 # Brain Caner Classification from MRI using Deep Learning (VGG19 / VGG16 / ResNet50)
 
-This repository contains a complete deep learning pipeline for **Brain Cancer Classification** from **MRI images** using multiple pretrained CNN architectures (VGG19, VGG16, ResNet50).  
+This repository contains a complete deep learning pipeline for **Brain Cancer Classification** from **MRI images** using multiple pretrained CNN architectures (VGG16, VGG19, ResNet50).  
 The project includes **5-Fold Cross-Validation**, **Grad-CAM Explainability**, and clean modular code following research-grade structure.
 
 ---
