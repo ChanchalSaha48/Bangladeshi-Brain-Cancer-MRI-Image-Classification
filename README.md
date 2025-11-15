@@ -78,12 +78,12 @@ pip install -r requirements.txt
 
 # For VGG16
 - Fold-wise metrics table:
-               | Fold   |  Loss    | Accuracy  | Precision  | Recall    |
+  `            | Fold   |  Loss    | Accuracy  | Precision  | Recall    |
                |   1    | 0.096516 | 0.965862  | 0.965862   | 0.965862  |
                |   2    | 0.033066 | 0.987510  | 0.987510   | 0.987510  |
                |   3    | 0.035797 | 0.987510  | 0.989158   | 0.987510  |          
                |   4    | 0.035942 | 0.986678  | 0.987500   | 0.986678  |
-               |   5    | 0.021066 | 0.990833  | 0.990833   | 0.990833  |
+               |   5    | 0.021066 | 0.990833  | 0.990833   | 0.990833  |`
                          
 
 - Mean ± Std deviation across 5 folds  
