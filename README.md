@@ -5,6 +5,16 @@ The project includes **5-Fold Cross-Validation**, **Grad-CAM Explainability**, a
 
 ---
 
+## ⚙️ Requirements
+
+- Python 3.9+  
+- TensorFlow 2.x  
+- Keras  
+- OpenCV (`cv2`)  
+- matplotlib, seaborn, pandas, scikit-learn  
+
+---
+
 ## 🚀 Key Features
 
 - ✔️ MRI-based Brain Cancer Classification  
@@ -141,18 +151,10 @@ pip install -r requirements.txt
 ### Grad-CAM Visualizations
 See Grad-CAM overlays for VGG16, VGG19, and ResNet50 in `outputs/gradcam/`.
 
-
 ---
+## 🏁 Conclusion
 
-## ⚙️ Requirements
-
-- Python 3.9+  
-- TensorFlow 2.x  
-- Keras  
-- OpenCV (`cv2`)  
-- matplotlib, seaborn, pandas, scikit-learn  
-
-
-
-
+Based on 5-Fold Cross-Validation metrics, VGG16 achieved the highest accuracy (0.9837 ± 0.010) and precision (0.9848 ± 0.011), followed by VGG19 and ResNet50.  
+Grad-CAM visualizations confirm that VGG16 focuses correctly on tumor regions, providing reliable interpretability.  
+Therefore, VGG16 with fine-tuning is the preferred model for multi-class brain tumor MRI classification in this dataset.
 
