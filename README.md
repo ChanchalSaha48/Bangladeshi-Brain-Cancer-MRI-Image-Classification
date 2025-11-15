@@ -158,3 +158,17 @@ Based on 5-Fold Cross-Validation metrics, VGG16 achieved the highest accuracy (0
 Grad-CAM visualizations confirm that VGG16 focuses correctly on tumor regions, providing reliable interpretability.  
 Therefore, VGG16 with fine-tuning is the preferred model for multi-class brain tumor MRI classification in this dataset.
 
+---
+
+📚 Citation :
+If you use this repository, please cite:@article{chanchalsaha2025braintumor,
+  title={MRI Brain Tumor Classification using Deep Transfer Learning and 5-Fold Cross-Validation},
+  author={Chanchal Saha},
+  year={2025}
+}
+
+
+📬 Contact
+
+Author: Chanchal Saha
+Email: chanchalsaha415@gmail.com
