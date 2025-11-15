@@ -170,7 +170,7 @@ If you use this repository, please cite:@article{chanchalsaha2025braintumor,
 
 ---
 
-##📬 Contact
+## 📬 Contact
 
 Author: Chanchal Saha
 Email: chanchalsaha415@gmail.com
