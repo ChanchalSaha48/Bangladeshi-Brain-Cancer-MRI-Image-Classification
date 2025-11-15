@@ -168,8 +168,9 @@ If you use this repository, please cite:@article{chanchalsaha2025braintumor,
 -  year={2025}
 }
 
+---
 
-📬 Contact
+##📬 Contact
 
 Author: Chanchal Saha
 Email: chanchalsaha415@gmail.com
