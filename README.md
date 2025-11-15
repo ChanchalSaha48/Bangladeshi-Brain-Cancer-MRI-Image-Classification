@@ -32,3 +32,12 @@ Add your dataset source here:
 Dataset Source: https://www.kaggle.com/datasets/orvile/pmram-bangladeshi-brain-cancer-mri-dataset
 
 
+---
+
+## 🔧 Installation
+
+```bash
+pip install -r requirements.txt
+
+
+
