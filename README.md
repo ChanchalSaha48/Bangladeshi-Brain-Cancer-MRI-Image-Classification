@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ## 📊 Results
 
 
-## 📝 VGG16 Fold-wise Performance Metrics
+** 📝 VGG16 Fold-wise Performance Metrics**
 
 | Fold | Loss     | Accuracy | Precision | Recall   |
 |------|----------|---------|-----------|-----------|
@@ -87,15 +87,61 @@ pip install -r requirements.txt
 | 5    | 0.021066 | 0.990833 | 0.990833  | 0.990833 |
 
 **Mean ± Std Dev:**
-- Loss: 0.0441 ± 0.031  
+- Loss: 0.0445 ± 0.030  
 - Accuracy: 0.9837 ± 0.010  
-- Precision: 0.9848 ± 0.011  
+- Precision: 0.9842 ± 0.010  
 - Recall: 0.9837 ± 0.010
 
-                         
+---
 
-- Mean ± Std deviation across 5 folds  
-- Grad-CAM visualizations for selected images  
+** 📝 VGG19 Fold-wise Performance Metrics**
+
+| Fold | Loss     | Accuracy | Precision | Recall   |
+|------|----------|---------|-----------|---------|
+| 1    | 0.134631 | 0.966777 | 0.966667 | 0.963455 |
+| 2    | 0.155731 | 0.960133 | 0.963087 | 0.953488 |
+| 3    | 0.286648 | 0.936877 | 0.939799 | 0.933555 |
+| 4    | 0.151391 | 0.953488 | 0.956229 | 0.943522 |
+| 5    | 0.164394 | 0.953488 | 0.956522 | 0.950166 |
+
+**Mean ± Std Dev:**
+- Loss: 0.1786 ± 0.0614  
+- Accuracy: 0.9542 ± 0.0111  
+- Precision: 0.9565 ± 0.0103  
+- Recall: 0.9488 ± 0.0112
+
+---
+
+** 📝 ResNet50 Fold-wise Performance Metrics**
+
+| Fold | Loss     | Accuracy | Precision | Recall   |
+|------|----------|---------|-----------|---------|
+| 1    | 0.652354 | 0.711907 | 0.771707 | 0.658618 |
+| 2    | 0.680941 | 0.707744 | 0.762695 | 0.650291 |
+| 3    | 0.741511 | 0.688593 | 0.754852 | 0.615321 |
+| 4    | 0.758566 | 0.689425 | 0.756329 | 0.597003 |
+| 5    | 0.700282 | 0.722500 | 0.789157 | 0.655000 |
+
+**Mean ± Std Dev:**
+- Loss: 0.7067 ± 0.0435  
+- Accuracy: 0.7040 ± 0.0147  
+- Precision: 0.7669 ± 0.0141  
+- Recall: 0.6352 ± 0.0275
+
+---
+
+## Model Comparison Table (Summary)
+
+| Model    | Loss ± SD      | Accuracy ± SD  | Precision ± SD | Recall ± SD    |
+| -------- | -------------- | -------------- | -------------- | -------------- |
+| VGG16    | 0.0441 ± 0.031 | 0.9837 ± 0.010 | 0.9848 ± 0.011 | 0.9837 ± 0.010 |
+| VGG19    | 0.1786 ± 0.061 | 0.9542 ± 0.011 | 0.9565 ± 0.010 | 0.9488 ± 0.011 |
+| ResNet50 | 0.7067 ± 0.043 | 0.7040 ± 0.015 | 0.7669 ± 0.014 | 0.6352 ± 0.027 |
+
+
+### Grad-CAM Visualizations
+See Grad-CAM overlays for VGG16, VGG19, and ResNet50 in `outputs/gradcam/`.
+
 
 ---
 
@@ -107,8 +153,6 @@ pip install -r requirements.txt
 - OpenCV (`cv2`)  
 - matplotlib, seaborn, pandas, scikit-learn  
 
-```bash
-pip install -r requirements.txt
 
 
 
