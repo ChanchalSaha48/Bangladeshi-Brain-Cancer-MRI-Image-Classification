@@ -77,7 +77,9 @@ pip install -r requirements.txt
 
 
 # For VGG16
-- Fold-wise metrics table: `Loss | Accuracy | Precision | Recall`
+- Fold-wise metrics table:
+-               ` Fold|Loss | Accuracy | Precision | Recall`
+-               `    1      |
 
 - Mean ± Std deviation across 5 folds  
 - Grad-CAM visualizations for selected images  
