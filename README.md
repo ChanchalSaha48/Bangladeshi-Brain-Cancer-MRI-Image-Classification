@@ -29,9 +29,15 @@ The project includes **5-Fold Cross-Validation**, **Grad-CAM Explainability**, a
 Add your dataset source here:
 
 ```md
-Dataset Source: https://www.kaggle.com/datasets/orvile/pmram-bangladeshi-brain-cancer-mri-dataset
+Dataset Source: https://www.kaggle.com/datasets/orvile/pmram-bangladeshi-brain-cancer-mri-dataset 
 
-
+dataset/
+│
+├── glioma/
+├── meningioma/
+├── pituitary/
+└── notumor/
+```
 ---
 
 ## 🔧 Installation
